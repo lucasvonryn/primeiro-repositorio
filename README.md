@@ -1,1 +1,0 @@
-# reciclagem-do-aluminio

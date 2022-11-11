@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif, Helvetica, sans-serif;
+    background-color: #f8f8ec;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    color: white;
+}
+
+main {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif, Helvetica, sans-serif;
+    background-color: #f8f8ec;
+    width: 70%;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+h1 > {
+    color: white;
+}
+
+h2 {
+    color: #0a5483;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.voltar {
+    width: 25px;
+}
+
+.topo {
+    background-color: #aedd2d;
+    padding: 3px;
+}
+
+.navegacao {
+    background-color: #02416d;
+    padding: 20px;
+}

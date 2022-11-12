@@ -3,6 +3,8 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif, Helvetica, sans-serif;
     background-color: #f8f8ec;
+    position:relative;
+    margin:0px;
 }
 
 header {
@@ -10,28 +12,34 @@ header {
     width: 100%;
     margin: auto;
     color: white;
+    position: fixed;
 }
 
 main {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif, Helvetica, sans-serif;
     background-color: #f8f8ec;
-    width: 70%;
-    padding: 10px;
     width: 80%;
-    margin: auto;
+    margin-left: 10%;
+    text-align: justify;
+    display: inline-block;
+    margin-top: 150px;
+    margin-bottom: 50px;
 }
 
-h1 > {
+footer {
+    background-color: #1d2c36;
+    text-align: justify;
     color: white;
+    padding: 10px;
 }
 
-h2 {
-    color: #0a5483;
+h1{
+    color: white;
 }
 
 a {
     color: white;
-    font-weight: bold;
+    font-weight: lighter;
     text-decoration: none;
     margin: 10px;
 }
@@ -40,16 +48,40 @@ a:hover {
     text-decoration: underline;
 }
 
-.voltar {
-    width: 25px;
-}
-
 .topo {
-    background-color: #aedd2d;
-    padding: 3px;
+    background-color: #aedd2b;
+    padding: 2px;
 }
 
-.navegacao {
+.nav {
     background-color: #02416d;
-    padding: 20px;
+    padding: 10px;
 }
+
+.sobre {
+    width: 40%;
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.integrantes {
+    width: 40%;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.logoinsta {
+    width: 18px;
+    margin-left: 10px;
+}
+
+.sesi {
+    color: #02416d;
+}
+
+.logosesi {
+    width: 70px;
+    display: inline-block;
+    margin-right: 10px;
+}
+

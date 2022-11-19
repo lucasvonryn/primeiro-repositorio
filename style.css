@@ -150,6 +150,12 @@ main p.citacao {
     text-indent: 30px;
 }
 
+main p.descricao {
+    font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 main strong {
     font-weight: 600;
 }
@@ -188,18 +194,8 @@ main > article > aside > p > a:hover {
 
 main img {
     width: 100%;
-}
-
-main img.pequena {
-    max-width: 300px;
-    display: block;
-    margin: auto;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.212);
-}
-
-main img.grande {
-    max-width: 600px;
+    min-width: 300px;
+    max-width: 700px;
     display: block;
     margin: auto;
     border-radius: 10px;

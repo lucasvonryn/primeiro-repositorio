@@ -1,292 +1,143 @@
-@charset "UTF-8";
+<!DOCTYPE html>
+<html lang="pt-br">
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesiclagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+<body>
+    <header>
+        <h1><strong>SESI</strong>CLAGEM</h1>
+        <p>Tudo sobre a produção e recilcagem de latinhas de alumínio no Brasil</p>
+    </header>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="materiaprima.html">MATÉRIA-PRIMA</a>
+        <a href="producao.html">PRODUÇÃO DAS LATINHAS</a>
+        <a href="reciclagem.html">RECICLAGEM</a>
+    </nav>
+    <main>
+        <article>
+            <h1>Aluminio e sua reciclagem no Brasil</h1>
 
-:root {
-    --cor1: #ffffff;
-    --cor2: #aedd2b;
-    --cor3: #a7c8d8;
-    --cor4: #066699;
-    --cor5: #0a5483;
-    --cor6: #02416d;
-    --cor7: #022d4e;
-    --cor8: #aedd2b83;
+            <p>
+                A <strong>reciclagem de alumínio</strong> se confunde com a implantação da indústria do metal no país.
+                Na década de 1920,
+                data dos primeiros registros de produção de utensílios de alumínio em território nacional, o setor
+                utilizava
+                como matéria prima a sucata importada de vários países. Nos anos <strong>1990</strong>, com o início da
+                produção das
+                latas no
+                Brasil, a reciclagem do metal foi intensificada, registrando volumes cada vez maiores.
+            </p>
 
-    --fonte-padrao: 'Roboto', sans-serif;
-    --fonte-destaque: 'Oswald', sans-serif;
-}
+            <p>
+                Hoje a reciclagem de alumínio no Brasil funciona com <strong>altíssimos índices</strong> de eficácia,
+                acima da média mundial,
+                reciclando praticamente toda sucata disponível. A relação entre este volume e o consumo doméstico de
+                alumínio indica um percentual de 38,5%, que é superior a média mundial de 27,1% (base 2014). Em 2015, o
+                país
+                reciclou <strong>602 mil</strong> toneladas de alumínio. Desse total, 292,5 mil toneladas referem-se à
+                sucata de latas de
+                alumínio para bebidas, o que corresponde a 97,9% do total de embalagens consumidas em 2015, índice que
+                mantém o Brasil entre os países <strong>líderes em reciclagem</strong> de latinhas desde 2001.
+            </p>
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
+            <h2>Notícia do jornal O GLOBO sobre o assunto</h2>
 
-body {
-    background-color: var(--cor1);
-    font-family: var(--fonte-padrao);
-    background-image: url(/imagens/latas-fundo.jpg);
-}
+            <picture>
+                <source media="(max-width: 300px)" srcset="imagens/noticia.png">
+                <img src="imagens/noticia.png" alt="Notícia O GLOBO">
+            </picture>
 
-/*
-body::-webkit-scrollbar {
-    width: 10px;
-    height: 10%;
-  }
-  
-  body::-webkit-scrollbar-track {
-    background: transparent;
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color: var(--cor4);
-    border-radius: 20px;       
-  }
+            <p>Pelo artigo, "Enquanto a indústria do plástico busca caminhos para tornar a embalagem menos problemática
+                ao meio ambiente, a do alumínio tornou-se um case de sucesso envolvendo todos os atores da cadeia, com
+                números vistosos para exibir. No ano passado, por exemplo, o índice de reciclagem de alumínio chegou a
+                98,7%, o que equivale a 33 bilhões de latas reaproveitadas. E o bom desempenho não vem de hoje. Há dez
+                anos, essa taxa era de 95%."</p>
 
-  */
+            <p>
+                O presidente da Associação Brasileira dos Fabricantes de Lata de Alumínio (<a
+                    href="https://www.abralatas.org.br/" target="_blank">Abralatas</a>), Cátilo Cândido,
+                destaca que esta é uma cadeia bem estruturada, com ganhos para quem coleta, quem transforma e para os
+                fabricantes, formando o ciclo completo da economia circular.
+            </p>
 
-header {
-    background-color: var(--cor4);
-    min-height: 130px;
-    text-align: center;
-    padding-bottom: 20px;
-}
+            <p class="citacao">
+                <em>
+                    — Além do bom valor de revenda em relação a outros materiais, a latinha também é de fácil manuseio e
+                    não
+                    ocupa tanto espaço, o que facilita que as pessoas que reciclam consigam acumular um volume que
+                    compense na
+                    hora da revenda —
+                </em> diz Anne Caroline, catadora de materiais recicláveis e influenciadora digital.
+            </p>
 
-header h1 {
-    color: white;
-    font-family: var(--fonte-destaque);
-    padding-top: 20px;
-    margin-bottom: 5px;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
-    font-size: 3.2em;
-    font-weight: 400;
-    letter-spacing: 10px;
-}
+            <p>
+                O alumínio é <strong>100% reciclável</strong> e pode ser reciclado infinitamente sem perder suas
+                propriedades. Outra vantagem
+                é o ciclo de consumo. Do momento da coleta até o retorno à indústria como matéria-prima reciclada são
+                apenas
+                60 dias. Segundo a <strong>Abralatas</strong>, 75% do alumínio extraído estão em circulação, uma vez que
+                se trata de um
+                material que pode ser reutilizado inúmeras vezes.
+            </p>
 
-header p {
-    color: white;
-    font-family: var(--fonte-padrao);
-    font-size: 1.2em;
-    max-width: 500px;
-    margin: auto;
-    padding-right: 10px;
-    padding-left: 10px;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
-}
+            <aside>
+                <p>Confira no <a href="index.html" target="_self">topo do site</a> como é o processo de produção e
+                    reciclagem do alumínio.</p>
+            </aside>
+        </article>
+    </main>
+    <footer>
+        <div class="sobre">
+            <h1>Sobre nós</h1>
+            <div class="quemsomos">
+                <h2>Quem somos?</h2>
+                <p>Somos a equipe dois do último trimestre do terceiro ano do Colégio SESI - Irati. Este site é um
+                    trabalho
+                    de
+                    finalização da nossa oficina, "O lixo é seu".</p>
+            </div>
+            <div class="integrantes">
+                <h2>Integrantes</h2>
 
-header strong {
-    color: var(--cor2);
-    font-weight: 400;
-}
+                <div id="pessoa">
+                    <p><a href="https://www.instagram.com/lucasvonryn/?hl=pt-br" target="_blank">Lucas</a></p>
+                    <a href="https://www.instagram.com/lucasvonryn/?hl=pt-br" target="_blank"><img src="imagens/foto-lucas.jpg" alt="Foto do Lucas" class="pq"></a>
+                </div>
 
-nav {
-    background-color: var(--cor2);
-    padding: 15px;
-    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.404);
-    text-align: center;
-}
+                <div id="pessoa">
+                    <p><a href="https://www.instagram.com/amanda_kutner/" target="_blank">Amanda</a></p>
+                    <a href="https://www.instagram.com/amanda_kutner/" target="_blank"><img src="imagens/foto-amanda.jpg" alt="Foto do Lucas" class="pq"></a>
+                </div>
 
-nav a {
-    text-decoration: none;
-    color: white;
-    padding: 8px;
-    margin: 0px 10px 5px 0px;
-    font-weight: bold;
-    font-size: 1.1em;
-    border-radius: 5px;
-    transition-duration: 0.5s;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-}
+                <div id="pessoa">
+                    <p><a href="https://www.instagram.com/jlagaspar/?hl=pt-br" target="_blank">Julia Gaspar</a></p>
+                    <a href="https://www.instagram.com/jlagaspar/?hl=pt-br" target="_blank"><img src="imagens/foto-julia.jpg" alt="Foto do Lucas" class="pq"></a>
+                </div>
 
-nav a:hover {
-    background-color: var(--cor1);
-    color: var(--cor2);
-    text-shadow: none;
-}
+                <div id="pessoa">
+                    <p><a href="https://www.instagram.com/jessicachasko/" target="_blank">Jéssica</a></p>
+                    <a href="https://www.instagram.com/jessicachasko/" target="_blank"><img src="imagens/foto-jessica.jpg" alt="Foto do Lucas" class="pq"></a>
+                </div>
 
-main {
-    background-color: var(--cor1);
-    margin: auto;
-    margin-bottom: 30px;
-    min-width: 300px;
-    max-width: 1000px;
-    padding: 20px;
-    box-shadow: 0px 4px 15px rgba(5, 5, 5, 0.4);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
+                <div id="pessoa">
+                    <p><a href="https://www.instagram.com/jv_sabao/" target="_blank">Sabão</a></p>
+                    <a href="https://www.instagram.com/jv_sabao/" target="_blank"><img src="imagens/foto-sabao.jpg" alt="Foto do Lucas" class="pq"></a>
+                </div>
 
-main h1 {
-    color: var(--cor7);
-    font-weight: normal;
-    font-family: var(--fonte-destaque);
-    font-size: 2.2em;
-    line-height: 1em;
-}
+                <div id="pessoa">
+                    <p><a href="#">Cauã</a></p>
+                    <a href="#"><img src="imagens/foto-caua.jpg" alt="Foto do Lucas" class="pq"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
 
-main h2 {
-    color: var(--cor6);
-    font-family: var(--fonte-destaque);
-    font-size: 1.8em;
-    background-image: linear-gradient(to right, var(--cor8), transparent);
-    border-radius: 7px;
-    padding: 5px;
-    margin-bottom: 20px;
-    font-weight: normal;
-    line-height: 1em;
-}
-
-main p {
-    text-align: justify;
-    line-height: 1.7em;
-    font-size: 1.2em;
-    margin: 20px 0px;
-    font-weight: normal;
-}
-
-main p.citacao {
-    padding: 1% 5%;
-    text-indent: 30px;
-}
-
-main p.descricao {
-    font-size: 0.9em;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-main strong {
-    font-weight: 600;
-}
-
-main em {
-    color: rgb(51, 51, 51);
-}
-
-main > article > p > a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    background-color: var(--cor8);
-    border-radius: 5px;
-    padding: 1px 3px;
-}
-
-main > article > p > a:hover {
-    text-decoration: underline;
-}
-
-aside {
-    font-size: 0.8em;
-}
-
-main > article > aside > p > a {
-    text-decoration: none;
-    font-weight: bold;
-    background-color: none;
-    color: black;
-}
-
-main > article > aside > p > a:hover {
-    text-decoration: underline;
-}
-
-main img {
-    width: 100%;
-    min-width: 300px;
-    max-width: 700px;
-    display: block;
-    margin: auto;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.212);
-}
-
-div.video {
-    background-color: var(--cor1);
-    margin: 0px -20px 30px -20px;
-    padding: 20px;
-    padding-bottom: 58%;
-    position: relative;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.274);
-}
-
-div.video iframe {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
-}
-
-footer {
-    background-color: var(--cor7);
-    font-size: 0.9em;
-    padding: 25px;
-    color: white;
-}
-
-footer h1 {
-    font-family: var(--fonte-destaque);
-    font-weight: 500;
-    min-width: 300px;
-    max-width: 1000px;
-    margin: auto;
-    margin-bottom: 20px;
-}
-
-footer h2 {
-    font-family: var(--fonte-destaque);
-    font-weight: 400;
-    margin-bottom: 10px;
-}
-
-footer p {
-    font-weight: 300;
-    margin: 10px 0px 10px 0px;
-}
-
-footer a {
-    color: white;
-    font-weight: 300;
-    text-decoration: none;
-    font-size: 1.1em;
-}
-
-footer a:hover {
-    color: var(--cor2);
-}
-
-footer img.pq {
-    min-width: 50px;
-    max-width: 100px;
-    border-radius: 50%;
-    margin: auto;
-}
-
-.sobre {
-    min-width: 300px;
-    max-width: 1000px;
-    margin: auto;
-}
-
-.quemsomos {
-    display: inline-block;
-}
-
-.integrantes {
-    min-width: 300px;
-    max-width: 1000px;
-    display: inline-block;
-    margin-top: 30px;
-}
-
-div#pessoa {
-    display: inline-block;
-    margin-right: 40px;
-    margin-bottom: 20px;
-}
-
-div#pessoa p {
-    text-align: center;
-}
+</html>
